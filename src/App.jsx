@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import GithubProfileFinder from "./github-profile-finder";
 
 function App() {
   return (
-    <div>App</div>
-  )
+    <div>
+      <GithubProfileFinder />
+    </div>
+  );
 }
 
-export default App
+export default App;
