@@ -1,24 +1,71 @@
 .github-profile-container {
   width: 100vw;
   height: 100vh;
+  padding: 20px;
   display: flex;
-  margin-top: 10px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-wrapper {
+  display: flex;
+  gap: 20px;
   justify-content: center;
+  margin-bottom: 20px;
 }
 
 .input-wrapper input {
   padding: 6px;
+  font-size: 16px;
 }
 
 .input-wrapper button {
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding: 5px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  color: #000;
+  background-color: #00f4ec;
+  cursor: pointer;
+  border: none;
 }
 
-.user{
+.user {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 20px;
+  border: 1px solid;
+  width: 90%;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.avtar {
+  height: 150px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+}
+
+.name-container {
+  display: flex;
+  gap: 20px;
+}
+
+.name-container p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.profi-info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.profi-info div {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 20px;
+  font-weight: bold;
 }
